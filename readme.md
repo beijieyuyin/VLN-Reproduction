@@ -13,6 +13,7 @@
 #gif为3条实机第一视角demo。
 #The GIF consists of three first-person gameplay demos
 
+#本工程使用ubuntu 22.04+ros1
 
 #catkin_ws
 相关pkg存放在src目录下，使用catkin build进行编译

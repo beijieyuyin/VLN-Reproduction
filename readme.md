@@ -2,10 +2,12 @@
 
 
 #在这里非常感谢UniNavid团队的精彩工作，详细可以去他们的仓库查看。https://pku-epic.github.io/Uni-NaVid/
+
 #I would like to take this opportunity to thank the UniNavid team for their excellent work; further details can be found on their repository.
 
 
-#src只放着client端的代码，实现了fastapi的远程通讯，动作指令转换为速度指令，gif制作的实机导航效果，是在jetson实现复现，下方是一些踩坑，也一起放进来了。
+#src只放着client端的代码，实现了fastapi的远程通讯，动作指令转换为速度指令，gif制作的实机导航效果，src存放client端代码，server.py用于云端推理，client是在jetson实现复现，下方是一些踩坑，也一起放进来了。
+
 #The src file contains only client-side code, implementing FastAPI remote communication, converting motion commands into speed commands, and demonstrating the in-game navigation effects created using GIFs.
 
 #gif为3条实机第一视角demo。

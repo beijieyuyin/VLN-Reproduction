@@ -21,7 +21,7 @@ class NavigationAgent:
         
         self.instruction = None
         # 服务器地址（根据实际情况修改）
-        self.server_url = "https://uu724042-b565-a503a25e.bjb1.seetacloud.com:8443/generate"
+        self.server_url = ""
         
         # 状态标志
         self.waiting_for_response = False           # 是否正在等待服务器响应

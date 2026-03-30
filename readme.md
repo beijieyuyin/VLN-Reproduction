@@ -1,4 +1,5 @@
 #本工程用于uninavid的实机演示
+#这里只放着client端的代码，是在jetson实现复现，下方是一些踩坑，也一起放进来了。
 
 #catkin_ws
 相关pkg存放在src目录下，使用catkin build进行编译

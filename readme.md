@@ -1,5 +1,11 @@
 #本工程用于uninavid的实机演示
-#这里只放着client端的代码，是在jetson实现复现，下方是一些踩坑，也一起放进来了。
+
+#src只放着client端的代码，实现了fastapi的远程通讯，动作指令转换为速度指令，gif制作的实机导航效果，是在jetson实现复现，下方是一些踩坑，也一起放进来了。
+#The src file contains only client-side code, implementing FastAPI remote communication, converting motion commands into speed commands, and demonstrating the in-game navigation effects created using GIFs.
+
+#gif为3条实机第一视角demo。
+#The GIF consists of three first-person gameplay demos
+
 
 #catkin_ws
 相关pkg存放在src目录下，使用catkin build进行编译

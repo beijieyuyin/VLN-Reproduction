@@ -1,4 +1,5 @@
-#本工程用于uninavid的实机复现，使用ubuntu 22.04+ros1
+#本工程基于uninavid的实机复现，使用ubuntu 22.04+ros1
+#搭建了一个通用的端到端视觉语言导航系统，只需在云端更换模型即可实现部署。
 
 
 #在这里非常感谢UniNavid团队的精彩工作，详细可以去他们的仓库查看。https://pku-epic.github.io/Uni-NaVid/

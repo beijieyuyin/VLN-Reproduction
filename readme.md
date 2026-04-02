@@ -1,19 +1,29 @@
-#本工程用于uninavid的实机演示
+#本工程用于uninavid的实机复现，使用ubuntu 22.04+ros1
 
 
 #在这里非常感谢UniNavid团队的精彩工作，详细可以去他们的仓库查看。https://pku-epic.github.io/Uni-NaVid/
+#其中的语音识别使用到了大佬LJ-Hao jiahaoli的开源工程，详细请看。https://github.com/LJ-Hao/Deploy-Whisper-on-NVIDIA-Jetson-Orin-for-Real-time-Speech-to-Text.git
 
 #I would like to take this opportunity to thank the UniNavid team for their excellent work; further details can be found on their repository.
 
+#The speech recognition in this project utilises the open-source project by LJ-Hao jiahaoli; please see here for further details.
 
-#src只放着client端的代码，实现了fastapi的远程通讯，动作指令转换为速度指令，gif制作的实机导航效果，src存放client端代码，server.py用于云端推理，client是在jetson实现复现，下方是一些踩坑，也一起放进来了。
+#src只放着client端的代码，使用fastapi的远程通讯，连接云服务器
+
+#action_mapper将模型返回的4个动作指令转换为速度指令
+
+#gif_recorder制作第一人称视角的实机导航gif
+
+#teleop是方便键鼠遥控底盘
+
+#voice收集语音信息，使用模型转换为中文，然后使用匹配进行英文指令的转换
 
 #The src file contains only client-side code, implementing FastAPI remote communication, converting motion commands into speed commands, and demonstrating the in-game navigation effects created using GIFs.
 
-#gif为3条实机第一视角demo。
+#.gif文件为3条实机第一视角demo。
 #The GIF consists of three first-person gameplay demos
 
-#本工程使用ubuntu 22.04+ros1
+#以下是所有工程文件的的相关说明
 
 #catkin_ws
 相关pkg存放在src目录下，使用catkin build进行编译
@@ -49,7 +59,7 @@ cd catkin_ws在终端使用source devel/setup.bash，接着运行uninavid_client
 最后使用其他终端发布导航指令话题
 
 
-
+#欢迎与我讨论。
 
 
 

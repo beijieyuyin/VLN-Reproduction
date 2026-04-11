@@ -8,7 +8,7 @@
 
 ## 框架简介
 
-环境：ubuntu 22.04+ros1 
+环境：ubuntu 20.04+ros1 
 
 ros的安装推荐鱼香ros一键安装。
 
